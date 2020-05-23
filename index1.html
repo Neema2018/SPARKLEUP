@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARKLE UP</title>
+</head>
+<body>
+    <h3>EYE MAKE UP</h3>
+    <style>
+        h1{font-size: 20px;}
+        h3{font-size: 30px; text-align: center;}
+        .button1{text-align: center;}
+        p{font-size: 20px;}
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: turquoise;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+    <div class="column">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="Images/Eye/eye primer.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Eye Primer</h1> 
+                <p>Eye primer will help any makeup you put on your eye last longer. It will prevent creasing and fading. Types of makeup like this also brings out the color of your eyeshadow so that they’re more vibrant.</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+<div class="column">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/Eye/eye pencil.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Eye Pencil</h1> 
+            <p>An eyebrow pencil is a coloured pencil you can use to give your eyebrows a tint.The pencil is soft and highly pigmented, so you only need a few light strokes to get a lot of color.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="column">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/Eye/mascara.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Mascara</h1> 
+            <p>Mascara is used to darken, lengthen, and thicken the eyelashes. It is available in natural colors such as brown and black, but also comes in bolder colors such as blue, pink, or purple. There are many different formulas, including waterproof for those prone to allergies or sudden tears.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="column">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/Eye/eyeshadow.jpeg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Eye Shadow</h1> 
+            <p>It is applied on the eyelids and under the eyes. It is commonly used to make the wearer's eyes stand out or look more attractive.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<h3>LIP MAKE UP</h3>
+<div class="column">
+<div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Images/Lips/matte.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>Lip Stick</h1> 
+        <p>Lipstick is a cosmetic product containing pigments, oils, waxes, and emollients that applies color, texture, and protection to the lips.</p> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/Lips/lipgloss.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Lip Gloss</h1> 
+            <p>Lip gloss is a product used primarily to give lips a glossy luster and sometimes subtle color. It is distributed as a liquid or a soft solid. This type of makeup can be completely clear, translucent, or various shades of opacity, including frosted, glittered, glassy, and metallic finishes.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="Images/Lips/lip liner.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Lip Liner</h1> 
+                <p>Lip liner adds depth to the colour of your lipstick. It’s like applying two shades of nail polish to your nails. You’ll get a deeper colour but if you only apply one colour it looks washed out. It provides a base for your lips.</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="Images/Lips/lip balm.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Lip Balm</h1> 
+                    <p>The primary purpose of lip balm is to provide an occlusive layer on the lip surface to seal moisture in lips and protect them from external exposure. Dry air, cold temperatures, and wind all have a drying effect on skin by drawing moisture away from the body.</p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+<h3>FACE MAKE UP</h3>
+<div class="column">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="Images/Face/Primer.jpg" alt="Avatar" style="width:300px;height:300px;">
+          </div>
+          <div class="flip-card-back">
+            <h1>Primer</h1>
+            <p>A face primer is one of the best types of makeup to ensure everything stays on longer. They are relatively new products so few drugstore brands make primers. They pamper the skin and create a protective barrier.</p> 
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="column">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="Images/Face/foundationF.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Foundation</h1>
+                <p>Foundation is the type of makeup you put everywhere on your face, to even out skin tone. Usually a liquid, cream, or powder, as well as most recently, a light and fluffy mousse, which provides excellent coverage as well.</p> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="Images/Face/concealer.jpg" alt="Avatar" style="width:300px;height:300px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>Concealer</h1>
+                    <p>Used to cover any imperfections of the skin. Concealer is often used for any extra coverage needed to cover blemishes or any other marks. Concealer is often thicker and more solid than foundation, and provides longer lasting, and more detailed coverage.</p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="Images/Face/setting spray.jpg" alt="Avatar" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Setting Spray</h1>
+                        <p>Setting spray is used to keep applied makeup intact for long periods of time.</p> 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             
+<h3>NAIL MAKE UP</h3>
+                <div class="column">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="Images/Nails/gel polish.jpg" alt="Avatar" style="width:300px;height:300px;">
+                          </div>
+                          <div class="flip-card-back">
+                            <h1>Gel Polish</h1>
+                            <p>A type of lacquer applied to fingernails and toenails to decorate and protect the nail plate.</p> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="Images/Nails/stickons.jpg" alt="Avatar" style="width:300px;height:300px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h1>Nail Stickers</h1>
+                                <p>Used to decorate, enhance, and embellish the nails</p> 
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="Images/Nails/tips.jpg" alt="Avatar" style="width:300px;height:300px;">
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Tips</h1>
+                                    <p>Nail tips are pre-cut pieces of plastic that nail technicians use to create false nails.</p> 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="column">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                      <div class="flip-card-front">
+                                        <img src="Images/Nails/nail lamp.jpg" alt="Avatar" style="width:300px;height:300px;">
+                                      </div>
+                                      <div class="flip-card-back">
+                                        <h1>Nail Lamp</h1>
+                                        <p>Nail lamp is used to dry nails faster</p> 
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                <br>
+                                <p>Now that you are familiar with the various types of make up and their functions here are some tutorials that can aid in the application of some of these products.</p>
+                                <div class="button1">
+                                <a href="index2.html"><button>LETS GET STARTED!</button></a>
+                                </div>
+                                </body>
+</html>
